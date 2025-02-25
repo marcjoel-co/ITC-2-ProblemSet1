@@ -23,8 +23,11 @@ int main() {
     
     // loops through the array and stores the input in the array
     for(int i = 0; i < n; i++){  
+        cout << "Enter index" << i << ": ";
         cin >> arr[i];
     }
+
+    
 
     
     // calculate the sum once
